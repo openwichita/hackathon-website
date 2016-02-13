@@ -68,9 +68,9 @@
   $("#message_btn").click(function(){
     
     if ($("#message_frm").valid()){
-      $.post( "email-sender.php", $( "#message_frm" ).serialize() )
+      $.post( "/contact", $( "#message_frm" ).serialize() )
       .done(function( data ) {
-        if (data.sent === 'yes'){
+        if (data.sent){
           $("#success_msg").fadeIn( "fast", function(){
             setTimeout(function(){
               $("#success_msg").fadeOut("slow");

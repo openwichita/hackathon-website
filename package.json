@@ -1,0 +1,12 @@
+{
+  "name": "hackathonict.com",
+  "version": "1.0.0",
+  "main": "send-mail.js",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "sendgrid": "^2.0.0"
+  }
+}
