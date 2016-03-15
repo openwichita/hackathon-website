@@ -1383,7 +1383,8 @@
 		-webkit-transition: border-bottom-color 0.25s ease-in-out;
 		-ms-transition: border-bottom-color 0.25s ease-in-out;
 		transition: border-bottom-color 0.25s ease-in-out;
-		color: inherit;
+		/*color: inherit;*/
+    color: #4F4F4F;
 		text-decoration: none;
 		border-bottom: dotted 1px rgba(0, 0, 0, 0.25);
 	}
@@ -2032,6 +2033,10 @@
       border: 1px solid #ccc
     }
 
+    #header #header_frame footer {
+      color: #333;
+    }
+
 /* Main Sections */
 
 	.main {
@@ -2220,6 +2225,7 @@
 					padding-top: 1.25em;
 				}
 
+
 		/* Main Sections */
 
 			.main {
@@ -2394,6 +2400,8 @@
   .purple{
     color: rgba(127, 63, 152, 1);
   }
+
+  .bold { font-weight: bold; }
   
   .copyright{
     padding: 30px;
